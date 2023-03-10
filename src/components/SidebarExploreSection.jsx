@@ -14,7 +14,7 @@ const SidebarExploreSection = () => {
             <path d="M14 7l7 0l0 7"></path>
          </svg>
           }
-          title="Trending"
+          title="Tendências"
         />
         <SideBarExploreItem
           icon={
@@ -25,7 +25,7 @@ const SidebarExploreSection = () => {
             <path d="M18 5.3a9 9 0 0 0 0 13.4"></path>
          </svg>
           }
-          title="Sports"
+          title="Esportes"
         />
         <SideBarExploreItem
           icon={
@@ -37,7 +37,7 @@ const SidebarExploreSection = () => {
             <path d="M9 8l10 0"></path>
          </svg>
           }
-          title="Music"
+          title="Musicas"
         />
         <SideBarExploreItem
           icon={
@@ -53,7 +53,7 @@ const SidebarExploreSection = () => {
             <path d="M16 16l4 0"></path>
          </svg>
           }
-          title="Movies"
+          title="Filmes"
         />
         <SideBarExploreItem
           icon={
@@ -66,7 +66,7 @@ const SidebarExploreSection = () => {
             <path d="M14 10h2"></path>
          </svg>
           }
-          title="Gaming"
+          title="Jogos"
         />
         <SideBarExploreItem
           icon={
@@ -86,7 +86,7 @@ const SidebarExploreSection = () => {
               <path d="M5.333 6l3.334 3.25l3.333 -3.25l3.333 3.25l3.334 -3.25l3.333 3.25l-3.333 3.25l-3.334 -3.25l-3.333 3.25l3.333 3.25l-3.333 3.25l-3.333 -3.25l3.333 -3.25l-3.333 -3.25l-3.334 3.25l-3.333 -3.25z"></path>
             </svg>
           }
-          title="Live"
+          title="Ao vivo"
         />
         <SideBarExploreItem
           icon={
@@ -109,7 +109,7 @@ const SidebarExploreSection = () => {
               <path d="M8 16l4 0"></path>
             </svg>
           }
-          title="News"
+          title="Notícias"
         />
         <SideBarExploreItem
           icon={
@@ -135,7 +135,7 @@ const SidebarExploreSection = () => {
               <path d="M16 16l3.923 -.98"></path>
             </svg>
           }
-          title="Learning"
+          title="Aprender"
         />
         <SideBarExploreItem
           icon={
@@ -178,7 +178,7 @@ const SidebarExploreSection = () => {
               <path d="M14 6a2 2 0 1 0 -4 0c0 1.667 .67 3 2 4h-.008l7.971 4.428a2 2 0 0 1 1.029 1.749v.823a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-.823a2 2 0 0 1 1.029 -1.749l7.971 -4.428"></path>
             </svg>
           }
-          title="Fashion"
+          title="Estilo"
         />
       </div>
     </div>
