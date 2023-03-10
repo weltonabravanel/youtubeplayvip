@@ -37,7 +37,7 @@ const SidebarExploreSection = () => {
             <path d="M9 8l10 0"></path>
          </svg>
           }
-          title="Musicas"
+          title="Músicas"
         />
         <SideBarExploreItem
           icon={
