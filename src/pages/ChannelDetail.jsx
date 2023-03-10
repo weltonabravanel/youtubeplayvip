@@ -63,7 +63,7 @@ const ChannelDetail = () => {
                     {data.subCount > 1000000
                       ? Math.floor(data.subCount / 1000000) + "M"
                       : Math.floor(data.subCount / 1000) + "k"}{" "}
-                    subscribers
+                    Assinantes
                   </p>
                 )}
               </div>
@@ -122,7 +122,7 @@ const ChannelDetail = () => {
                   {data.subCount > 1000000
                     ? Math.floor(data.subCount / 1000000) + "M"
                     : Math.floor(data.subCount / 1000) + "k"}{" "}
-                  subscribers
+                  Assinantes
                 </p>
               )}
             </div>
@@ -131,7 +131,7 @@ const ChannelDetail = () => {
             </div> */}
           </div>
           <div className=" cursor-pointer hover:opacity-90 bg-red-500 p-2 px-8 rounded-full center md:mr-14 mt-10 md:mt-0">
-            <h3 className="font-medium text-gray-300">Subscribe</h3>
+            <h3 className="font-medium text-gray-300">Assinantes</h3>
           </div>
         </div>
       </div> 
@@ -140,7 +140,7 @@ const ChannelDetail = () => {
       <div>
         <div className={`mt-10 mb-5 ml-4 space-x-6 flex`}>
           <Link to={`/channel/${id.id}`}>
-          <h2 className={`font-medium text-xl  ${!location.pathname.match(/playlistsection/) && "text-red-500"} `}>Latest Videos</h2>
+          <h2 className={`font-medium text-xl  ${!location.pathname.match(/playlistsection/) && "text-red-500"} `}>Ultimos Videos</h2>
           </Link>
           <Link to={`/channel/${id.id}/playlistsection`}>
           <h2 className={`font-medium text-xl  ${location.pathname.match(/playlistsection/) && "text-red-500"} `}>Playlists</h2>
