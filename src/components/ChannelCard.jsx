@@ -25,7 +25,7 @@ const ChannelCard = ({
           <div>
             <h3 className="text-gray-400 text-sm">   {subCount < 1000000
                 ? Math.floor(subCount / 1000) + "K"
-                : Math.floor(subCount / 1000000) + "M"} subscribers</h3>
+                : Math.floor(subCount / 1000000) + "M"} Se inscrever </h3>
           {videoCount !=0 &&  <p>{videoCount} videos</p>}
           </div>
         </div>
