@@ -67,8 +67,7 @@ const SidebarExploreSection = () => {
          </svg>
           }
           title="Jogos"
-        />
-                   />
+        /> 
         <SideBarExploreItem
           icon={
             <svg
