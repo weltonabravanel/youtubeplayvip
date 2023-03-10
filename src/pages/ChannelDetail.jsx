@@ -72,7 +72,7 @@ const ChannelDetail = () => {
               </div>
             </div>
             <div className=" cursor-pointer hover:opacity-90 bg-red-500 p-2 px-8 rounded-full center mr-14">
-              <h3 className="font-medium text-gray-300">Subscribe</h3>
+              <h3 className="font-medium text-gray-300">Se inscrever</h3>
             </div>
           </div>
           <div
