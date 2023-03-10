@@ -37,7 +37,7 @@ const VideoInfo = ({
             {viewCount < 1000000
               ? Math.floor(viewCount / 1000) + "K"
               : Math.floor(viewCount / 1000000) + "M"}{" "}
-            views
+            Visualizações
           </p>}
         </div>
         <div className="mt-3">
@@ -63,7 +63,7 @@ const VideoInfo = ({
           </div>
             {/* channel details end */}
           <div className=" cursor-pointer hover:opacity-90 bg-red-500 p-2 px-8 rounded-full center">
-            <h3 className="font-medium text-gray-300">Subscribe</h3>
+            <h3 className="font-medium text-gray-300">Se inscrever</h3>
           </div>
         </div>
         {/* descrpiton start */}
