@@ -7,7 +7,7 @@ const CategoriesSection = () => {
     <div className="xl:flex items-center xl:max-w-[60%] shrink max-w-[40%] hidden  overflow-x-scrol space-x-14 scrollbar-hide md:pl-0 pl-5 md:pr-5">
     <Link to="/"><Categories title="All" id='' handleClick="" /></Link>
     <Categories title="Tendências" id="Trending" handleClick="" />
-    <Categories title="Musicas" id="music"  handleClick="" />
+    <Categories title="Músicas" id="music"  handleClick="" />
     <Categories title="Notícias" id="news" handleClick="" />
      <Categories title="Jogos" id="gaming" handleClick="" />
     <Categories title="Esportes" id="sports" handleClick="" />
