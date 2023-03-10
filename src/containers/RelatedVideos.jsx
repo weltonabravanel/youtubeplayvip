@@ -14,7 +14,7 @@ const RelatedVideos = ({data}) => {
   
   return (
     <div className="" >
-        <h2 className="ml-3 font-medium">Related Videos</h2>
+        <h2 className="ml-3 font-medium">Vídeos relacionados</h2>
       <div className="flex flex-wrap lg:flex-col">
         {data.map((item) => {
           return (
