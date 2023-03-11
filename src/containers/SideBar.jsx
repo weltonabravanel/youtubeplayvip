@@ -85,7 +85,7 @@ const SideBar = () => {
                       <path d="M10 12h4v4h-4z"></path>
                     </svg>
                   }
-                  title="Home"
+                  title="Inicio"
                 />
               </Link>
               <SideBarItem
