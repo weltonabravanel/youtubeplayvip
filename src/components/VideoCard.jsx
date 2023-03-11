@@ -22,7 +22,7 @@ const VideoCard = ({
 
   return (
     <div className="w-full xl:w-1/4 lg:w-1/4 min-[700px]:w-1/3 md:w-1/2 sm:w-1/2 sm:p-2 lg:p-3 cursor-pointer py-2 md:py-2">
-      <Link to="/video/:id"> 
+      {/* <Link to="/video/:id"> */}
       <div
         className="wrapper sm:rounded-lg overflow-hidden hover:opacity-75
       duration-150 "
