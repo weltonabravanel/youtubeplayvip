@@ -12,7 +12,7 @@ const Feed = () => {
 
 
 useEffect(()=>{
- api(`tendência?maxResults=100`).then((response)=>setData(response))
+ api(`tendencia?maxResults=100`).then((response)=>setData(response))
 },[])
 console.log(data)
    
