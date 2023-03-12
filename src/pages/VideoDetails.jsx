@@ -30,15 +30,15 @@ const VideoDetails = () => {
       {
         src: data.formatStreams && data.formatStreams[data.formatStreams.length-2].url,
         type: "video/mp4",
-        size: 1080,
+        size: 360,
       },
       {
         src: data.formatStreams && data.formatStreams[data.formatStreams.length-1].url,
         type: "video/webm",
         size: 720,
       },
-      {
-        ],
+      
+    ],
     poster: data.videoThumbnails && data.videoThumbnails[3].url,
   };
 
