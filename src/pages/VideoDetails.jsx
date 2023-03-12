@@ -37,7 +37,15 @@ const VideoDetails = () => {
         type: "video/webm",
         size: 720,
       },
-      
+      {
+        src: data.formatStreams && data.formatStreams[data.formatStreams.length-1].url,
+        type: "video/hls",
+        size: 480,
+      },
+      {
+        src: data.formatStreams && data.formatStreams[data.formatStreams.length-1].url,
+        type: "video/flv",
+        size: 240,
     ],
     poster: data.videoThumbnails && data.videoThumbnails[3].url,
   };
