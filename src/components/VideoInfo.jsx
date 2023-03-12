@@ -57,7 +57,7 @@ const VideoInfo = ({
                 {author}
               </h2>
               <h3 className=" opacity-90 font-thin text-sm text-gray-300">
-                {subCountText} Subscribers
+                {subCountText} Inscritos
               </h3>
             </div>
           </div>
@@ -79,7 +79,7 @@ const VideoInfo = ({
               className=" cursor-pointer text-gray-100 font-semibold text-sm opacity-75"
               onClick={() => setReadMore(!readMore)}
             >
-              {readMore ? "Read more" : "Read less"}
+              {readMore ? "Saiba mais" : "esconder"}
             </div>
         </div>
       </div>
