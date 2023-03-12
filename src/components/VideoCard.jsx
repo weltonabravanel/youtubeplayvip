@@ -44,7 +44,7 @@ const VideoCard = ({
               {viewCount < 1000000
                 ? Math.floor(viewCount / 1000) + "K"
                 : Math.floor(viewCount / 1000000) + "M"}{" "}
-              views
+              Visualizações
             </h3>
             <h3 className="pr-1">{publishText}</h3>
           </div>
