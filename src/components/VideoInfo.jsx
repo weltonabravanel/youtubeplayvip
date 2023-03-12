@@ -79,7 +79,7 @@ const VideoInfo = ({
               className=" cursor-pointer text-gray-100 font-semibold text-sm opacity-75"
               onClick={() => setReadMore(!readMore)}
             >
-              {readMore ? "Saiba mais" : "esconder"}
+              {readMore ? "Read more" : "Read less"}
             </div>
         </div>
       </div>
