@@ -61,21 +61,21 @@ const VideoDetails = () => {
         <div className="leftside w-full lg:w-[65%] lg:ml-14 ">
           <div className="w-full ">
             <div className="player-wrapper lg:rounded-xl">
-              {/* <ReactPlayer
+              <ReactPlayer
           className="react-player object-cover w-full"
             controls="true"
-            // style={vidStyle}
+            style={vidStyle}
             width="100%"
             height="100%"
-            // url={`https://www.youtube.com/watch?v=${id}&modestbranding=1&rel=0&showinfo=0`}
-            // url={`https://www.youtube.com/watch?v=${id}&rel=0&amp;showinfo=0&amp;autoplay=1`}
-            // url={`http://www.youtube.com/v/@Model.YoutubeId&rel=0&modestbranding=1`}
-            // url={data.adaptiveFormats && data.adaptiveFormats[data.adaptiveFormats.length - 10].url}
+            url={`https://www.youtube.com/watch?v=${id}&modestbranding=1&rel=0&showinfo=0`}
+            url={`https://www.youtube.com/watch?v=${id}&rel=0&amp;showinfo=0&amp;autoplay=1`}
+            url={`http://www.youtube.com/v/@Model.YoutubeId&rel=0&modestbranding=1`}
+             url={data.adaptiveFormats && data.adaptiveFormats[data.adaptiveFormats.length - 10].url}
             url={data.formatStreams && data.formatStreams[2].url}
-            // url={data.formatStreams && data.formatStreams[1].url}
-            // url="https://invidious.sethforprivacy.com/embed/hFGmHNcYWeU"
+             url={data.formatStreams && data.formatStreams[1].url}
+             url="https://invidious.sethforprivacy.com/embed/hFGmHNcYWeU"
             
-            //  source={data.dashUrl}
+              source={data.dashUrl}
           /> */}
           <Plyr  source={videoSrc} options={videoOptions}/>
             </div>
