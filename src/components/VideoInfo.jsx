@@ -37,7 +37,7 @@ const VideoInfo = ({
             {viewCount < 1000000
               ? Math.floor(viewCount / 1000) + "K"
               : Math.floor(viewCount / 1000000) + "M"}{" "}
-            Visualizações
+            views
           </p>}
         </div>
         <div className="mt-3">
@@ -57,7 +57,7 @@ const VideoInfo = ({
                 {author}
               </h2>
               <h3 className=" opacity-90 font-thin text-sm text-gray-300">
-                {subCountText} Inscritos
+                {subCountText} Subscribers
               </h3>
             </div>
           </div>
